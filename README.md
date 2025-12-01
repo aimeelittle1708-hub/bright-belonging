@@ -25,7 +25,7 @@ Encourage group visits + event participation
 <h3> User stories <h3>
 
 
-<h2>UXP design choices </h2>>
+<h2>UXP design choices </h2>
 <p>The completed 3 day sprint was composed of X separate items taken from business goal and user personas. Having used the MoSCoW approach to prioritisation, a Kanban board was created. X issues were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were ___ remaining backlog items.</p>
 
 insert kanban
