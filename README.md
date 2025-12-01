@@ -14,3 +14,11 @@ phone=
 <img alt="wireframe for ipad and medium screens" src="assets/images/new-wireframe2.png"/>
 
 <img alt="wireframe for desktop and large screens" src="assets/images/new-wireframe3.png"/>
+
+The site layout will look like this
+<img alt="nav tree" src="assets/images/treeofpages.png"/>
+
+Colour pallette
+
+Color pallette selected and check for WCAG standards to ensure accessibility.
+<img alt="nav tree" src="assets/images/newpallette.png"/>
