@@ -21,4 +21,4 @@ The site layout will look like this
 Colour pallette
 
 Color pallette selected and check for WCAG standards to ensure accessibility.
-<img alt="nav tree" src="assets/images/newpallette.png"/>
+<img alt="pallette evidence" src="assets/images/newpallette.png"/>
