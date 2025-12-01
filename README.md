@@ -9,5 +9,4 @@ Bright Belonging aims to make sensory inclusivity accessible and easy to underst
 
 Wire frames
 phone=
-<img assets\images\wireframephoneBBnoback.png
 <img alt="wireframe for phone" src="assets/images/wireframephoneBBnoback.png" /> 
