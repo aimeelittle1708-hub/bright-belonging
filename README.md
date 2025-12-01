@@ -14,7 +14,7 @@ Provide essential information
 Increase brand awareness
 Encourage group visits + event participation
 
-<h2>User Personas <h2>
+<h2>User Personas </h2>
 
 [ ] As a young person with sensory differences I want clear explanations of sensory terms and self‑help tools so that I can better understand and communicate my needs.
 
