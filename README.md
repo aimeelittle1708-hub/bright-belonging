@@ -6,3 +6,8 @@ Bright Belonging is a fictional educational website designed to help parents, te
 ⭐ Purpose
 
 Bright Belonging aims to make sensory inclusivity accessible and easy to understand. The platform provides clear, research-informed guidance so adults can create environments where every child feels safe, supported, and able to thrive.
+
+Wire frames
+phone=
+<img assets\images\wireframephoneBBnoback.png
+<img alt="wireframe for phone" src="assets/images/wireframephoneBBnoback.png" /> 
