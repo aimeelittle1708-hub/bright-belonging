@@ -30,13 +30,16 @@ Support inclusive educational practices for all children
 <h2>UXP design choices </h2>
 <p>The completed 3 day sprint was composed of X separate items taken from business goal and user personas. Having used the MoSCoW approach to prioritisation, a Kanban board was created. X issues were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were ___ remaining backlog items.</p>
 
-insert kanban
+<img alt="bb kanban" src="assets\images\bb-kanban.png">
 
-<h3>Wire frames</h3>
+<h3>Wire frame designs</h3>
 phone=
 <img alt="wireframe for phone" src="assets/images/wireframephoneBBnoback.png"/> 
+Mediumn screens and tablets=
 
 <img alt="wireframe for ipad and medium screens" src="assets/images/new-wireframe2.png"/>
+
+Desktops and large screens=
 
 <img alt="wireframe for desktop and large screens" src="assets/images/new-wireframe3.png"/>
 
