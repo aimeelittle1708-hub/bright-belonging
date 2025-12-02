@@ -1,9 +1,3 @@
-/*  
-    #a4c2d1; egg blue
-    #dbdcde; light grey
-    #1f7798; mid-blue
-    #184f63; dark-blue
-*/
 
 /* global styles */
 
@@ -36,6 +30,43 @@ h2 {
 }
 .navbar .nav-link:hover {
     color: #f8f9fa !important;
+}
+
+/* Brand button colour for Subscribe and Book buttons */
+:root {
+    --brand-button: #E84A5F;
+    --brand-button-hover: #D14255;
+}
+
+/* Apply brand colour to primary and custom buttons, force white text for contrast */
+.btn.btn-primary,
+.btn.custom-button-filled,
+.btn.custom-button-outline,
+a.btn.custom-button-outline {
+    background-color: var(--brand-button) !important;
+    border-color: var(--brand-button) !important;
+    color: #ffffff !important;
+}
+
+/* Hover / focus states */
+.btn.btn-primary:hover,
+.btn.custom-button-filled:hover,
+.btn.custom-button-outline:hover,
+a.btn.custom-button-outline:hover,
+.btn.btn-primary:focus,
+.btn.custom-button-filled:focus,
+.btn.custom-button-outline:focus {
+    background-color: var(--brand-button-hover) !important;
+    border-color: var(--brand-button-hover) !important;
+    color: #ffffff !important;
+}
+
+/* Ensure outline-style link buttons show filled colour on small screens for consistency */
+@media (max-width: 575.98px) {
+    .btn.custom-button-outline {
+        background-color: var(--brand-button) !important;
+        color: #ffffff !important;
+    }
 }
 
 .sharp-corners,
