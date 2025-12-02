@@ -11,8 +11,10 @@ Bright Belonging aims to make sensory inclusivity accessible and easy to underst
 
 Showcase the resources avaliable
 Provide essential information
-Increase brand awareness
+Equip adults with practical, evidence-informed tools
+Promote awareness and inclusion
 Encourage group visits + event participation
+Support inclusive educational practices for all children
 
 <h2>User Personas </h2>
 
