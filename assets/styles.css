@@ -344,3 +344,13 @@ a.btn.custom-button-outline:hover,
 .social-links a:hover i {
     color: #184f63; /* dark-blue on hover for subtle contrast */
 }
+
+/* Header subscribe button spacing (adds 20px gap below the button) */
+.header-subscribe {
+    margin-bottom: 10px;
+}
+
+/* Hero modal subscribe button spacing (adds 20px gap below the button) */
+.hero-subscribe {
+    margin-bottom: 20px;
+}
