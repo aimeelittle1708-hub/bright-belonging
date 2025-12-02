@@ -11,6 +11,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    padding-top: 57.15px; /*pushes the top of the header below the fixed navbar*/
     background-color: #a4c2d1; /* egg blue */
     /* Full-page background image */
     background-image: url("images/wavy-checkerboard-pattern-fklcktgxdhsc9mq8.jpg");
