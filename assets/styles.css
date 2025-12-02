@@ -336,7 +336,7 @@ a.btn.custom-button-outline:hover,
 }
 .social-links i {
     color: #2a3638; /* gunmetal */
-    font-size: 2rem; /* roughly twice default */
+    font-size: 2rem; 
     line-height: 1;
     transition: color 150ms ease;
 }
