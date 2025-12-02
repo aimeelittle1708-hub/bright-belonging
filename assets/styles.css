@@ -12,6 +12,12 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: #a4c2d1; /* egg blue */
+    /* Full-page background image */
+    background-image: url("images/wavy-checkerboard-pattern-fklcktgxdhsc9mq8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1,
@@ -59,12 +65,210 @@ h2 {
 /* Header */
 
 #hero {
-    background-color: #dbdcde; /* light grey */
-    background-image: url("assets/images/wavy-checkerboard-pattern-fklcktgxdhsc9mq8.jpg");
-    background-size: cover;
-    background-position: 50% 70%;
+    
     min-height: 500px;
     padding: 5% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Overlay box that sits above the hero background */
+.hero-overlay {
+    /* Match the events overlay max width so hero and events align */
+    width: min(90%, 1200px);
+    aspect-ratio: 1 / 1; /* keep a square shape */
+    max-height: calc(100% - 50px);
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    box-shadow: 0 10px 30px rgba(24, 79, 99, 0.12);
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-sizing: border-box;
+    /* keep content fixed inside the overlay (no internal scrolling) */
+    overflow: hidden;
+}
+
+/* Hide webkit scrollbar */
+.hero-overlay::-webkit-scrollbar {
+    display: none;
+}
+
+/* Center the overlay exactly in the middle of the hero background */
+#hero {
+    position: relative;
+}
+.hero-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* Keep text readable and flow nicely inside the square */
+.hero-overlay .row {
+    width: 100%;
+}
+
+/* Ensure overlay content stacks and fits inside the square */
+.hero-overlay .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    min-height: 0;
+}
+.hero-overlay h1 {
+    /* Make the main hero title noticeably larger than other headings */
+    font-size: clamp(2rem, 5vw, 4rem);
+    margin: 0 0 0.25rem 0;
+    line-height: 1.05;
+    font-weight: 600;
+}
+.hero-overlay h2 {
+    font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+    margin: 0;
+}
+.hero-overlay p {
+    margin: 0.25rem 0 0.5rem;
+    line-height: 1.2;
+}
+
+/* Make the subscribe button wrap and not overflow */
+.hero-overlay .btn {
+    white-space: normal;
+    max-width: 100%;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.95rem;
+}
+
+/* Events section overlay to improve readability of title, text and map */
+.events-overlay {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(24, 79, 99, 0.08);
+    backdrop-filter: blur(3px);
+    max-width: 1200px;
+    margin: 1.5rem auto;
+    padding: 1.25rem 1.5rem;
+}
+
+.events-overlay h2 {
+    font-size: clamp(1.25rem, 3vw, 2.4rem);
+    margin: 0 0 0.5rem 0;
+    line-height: 1.08;
+    text-align: center;
+    word-break: normal;
+    background: transparent; /* ensure no extra box behind the title */
+    padding: 0.25rem 0;
+    width: 100%;
+}
+
+/* Remove the extra inner padding/box under the heading so it lines up with overlay edges */
+.events-overlay > .row > .col-12:first-child {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.events-overlay h2 br { display: none; }
+
+/* Keep inner rows full-width inside the overlay and add slight padding for the map/table */
+.events-overlay .row {
+    margin: 0;
+}
+.events-overlay .col-12 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* Ensure service columns and cards line up (tops and bottoms) by targeting #services */
+#services .row > [class*="col-"] {
+    display: flex;
+    align-items: stretch;
+}
+#services .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#services .card-body {
+    flex: 1 1 auto;
+}
+#services .card-footer {
+    flex-shrink: 0;
+}
+#services .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Style the Services heading: centered with a background box */
+#services .display-6 {
+     display: inline-block;
+     background: rgba(255,255,255,0.96);
+     padding: 0.45rem 1rem;
+     border-radius: 10px;
+     box-shadow: 0 6px 18px rgba(24,79,99,0.08);
+     margin: 0 auto 1rem auto;
+     text-align: center;
+}
+
+/* Ensure the heading's parent centers inline-block */
+#services .text-center { text-align: center; }
+
+/* Make all service cards equal height by stretching columns and using flex on cards */
+.services-overlay .row > [class*="col-"] {
+    display: flex;
+    align-items: stretch;
+}
+.services-overlay .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.services-overlay .card-body {
+    flex: 1 1 auto;
+}
+.services-overlay .card-footer {
+    flex-shrink: 0;
+}
+.services-overlay .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Make map and table comfortable on small screens */
+@media screen and (max-width: 991.98px) {
+    .events-overlay {
+        padding: 1rem;
+    }
+    .events-overlay .map-responsive {
+        margin-top: 1rem;
+    }
+}
+
+/* On very small screens, let the overlay become auto-height so content doesn't overflow */
+@media screen and (max-width: 575.98px) {
+    .hero-overlay {
+        aspect-ratio: auto;
+        width: 100%;
+        padding: 1.25rem;
+        position: static;
+        transform: none;
+    }
 }
 
 /* Media queries */
@@ -75,4 +279,20 @@ h2 {
     #portfolio .card-text {
         min-height: auto;
     }    
+}
+
+/* Responsive map wrapper for embedded maps */
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }

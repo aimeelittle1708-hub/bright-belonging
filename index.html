@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Project stylesheet -->
+    <link rel="stylesheet" href="assets/styles.css">
     <meta name="description"
         content="A supportive space where every child, parent, and teacher feels seen, understood, and empowered through inclusive, sensory-informed education.">
     <title>Bright Belonging | Home</title>
@@ -46,7 +48,7 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#resources.html">Resources</a>
+                        <a class="nav-link" href="resources.html">Resources</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -63,6 +65,7 @@
         <!-- header -->
     <header id="hero" class="container">
         <div id="cover-text">
+        <div class="hero-overlay" aria-hidden="false">
         <!-- section with hero image -->
         <section class="row">
             <!-- text-center class used to centre all text inside column -->
@@ -87,29 +90,29 @@
                 </button>
             </div>
         
+        </section>
+        </div>
         </div>
     </header>
-        <!-- Hero section -->
-         
-       
-       
-        
+    
         </div>
         </div>
         <!-- Services section -->
         <section id="services" class="container section">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="display-6">Services</h2>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
+            <div class="services-overlay mx-auto p-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="display-6">Services</h2>
+                        <br>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
                         <img src="assets/images/girl-with-down-syndrome-painting-with-colors_23-2148464631.jpg"
                             class="card-img-top" alt="Girl painting with bright colors with support from an adult">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Community Support Groups</h3>
+                            <h3 class="card-title sub-heading-color">Community Groups</h3>
                             <p class="card-text">
-                                Connect with others who understand sensory challenges. Our support groups offer a safe,
+                                Our support groups offer a safe,
                                 welcoming space to share experiences, learn strategies, and build meaningful
                                 connections.
                             </p>
@@ -168,59 +171,84 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </section>
+        <br>
         <!-- Events section -->
         <section id="events" class="container section">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="display-6 text-center">Join our Events</h2>
-                </div>
+            <div class="events-overlay mx-auto p-4">
                 <div class="row">
-                    <div class="col-12 col-xl-6">
-                        <p>Whether you're delving into dungeons, reliving classic games, or competing in high-stakes
-                            tournaments, there's something for every gamer. Reservations are recommended to ensure your
-                            spot at the table. Student discounts are available, so bring your student ID and enjoy more
-                            gaming for less.</p>
-                        <p>Outside scheduled events, our shop remains open for regular play. Join us anytime to discover
-                            new games and meet fellow enthusiasts.</p>
+                    <div class="col-12">
+                        <h2 class="display-6 text-center">Join our Events and Community Groups</h2>
                     </div>
+                    <div class="col-12 col-xl-6">
+                        <p>Our community offers a welcoming range of free support groups and events designed to empower children with neurodiversity or sensory needs, as well as the families and professionals who support them. We bring together parents, teachers, and specialists to share the latest research, practical advice, and evidence-based resources in an inclusive, nurturing environment.</p>
+                        <p>Whether you’re seeking guidance, connection, or innovative strategies, our events provide a safe space to learn, collaborate, and build confidence. Most sessions are free to attend, and all are created with the goal of helping every child thrive.</p>  
+                     <!-- Embedded map showing Wadebridge Family Hub -->
+                        <div class="map-responsive my-4" aria-label="Map showing Wadebridge Family Hub location">
+                            <iframe
+                                src="https://maps.google.com/maps?q=50.5185247,-4.8422335&z=17&output=embed"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                                title="Wadebridge Family Hub map"></iframe>
+                        </div>
+                        </div>
                     <div class="col-12 col-xl-6">
                         <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th scope="col">Event</th>
                                     <th scope="col"> Day</th>
+                                    <th scope="col">Location</th>
                                     <th scope="col">Time</th>
                                     <th scope="col">Price</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">Dungeons & Dragons</th>
+                                    <th scope="row">Stay and Play (Parents and children 0-7)</th>
                                     <td>Tuesdays</td>
-                                    <td>8pm - 11pm</td>
-                                    <td>€25 for 6 sessions</td>
+                                    <td>Family Hub, Wadebridge</td>
+                                    <td>3:30pm - 5pm</td>
+                                    <td>Free</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Retro Game Night</th>
-                                    <td>Thursdays</td>
-                                    <td>8pm - 11pm</td>
-                                    <td>€5 per person*</td>
+                                    <th scope="row">Sensory Support Network Drop-in</th>
+                                    <td>Wednesdays</td> 
+                                    <td>Family Hub, Wadebridge</td>
+                                    <td>9am - 5pm</td>
+                                    <td>Free</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Tournaments</th>
-                                    <td>Last Sunday of the month</td>
-                                    <td>12pm - 7pm</td>
-                                    <td>€10 per person</td>
+                                    <th scope="row">Knit and Natter</th>
+                                    <td>Last Thursday of the month</td>
+                                    <td>Family Hub, Wadebridge</td>
+                                    <td>10am - 12:30pm</td>
+                                    <td>Free</td>
+                                </tr>
+                                 <tr>
+                                    <th scope="row">The Hang Out</th>
+                                    <td>Saturdays</td>
+                                    <td>Family Hub, Wadebridge</td>
+                                    <td>10am - 12:30pm</td>
+                                    <td>Free</td>
+                                </tr>
+                                 <tr>
+                                    <th scope="row">Sensory Expo</th>
+                                    <td>Saturday 10th January</td>
+                                    <td>John Betjeman Community Centre, Wadebridge</td>
+                                    <td>10am - 15:30pm</td>
+                                    <td>£5 per person*</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="student-discount text-center">*Get 20% off with valid student ID</p>
+                        <p class="student-discount text-center">*Children free</p>
+                   
                     </div>
                     <div class="col-12 text-center">
                         <a href="booking.html" class="btn custom-button-outline my-4">Book now</a>
                     </div>
+                </div>
                 </div>
         </section>
     </main>
