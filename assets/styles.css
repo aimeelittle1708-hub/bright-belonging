@@ -188,6 +188,14 @@ a.btn.custom-button-outline:hover,
     padding: 1.25rem 1.5rem;
 }
 
+/* Booking page: slightly narrower overlay to better contain the form and text */
+.booking-overlay {
+    max-width: 900px;
+    width: min(94%, 900px);
+    margin: 1.25rem auto;
+    padding: 1rem 1.1rem;
+}
+
 .events-overlay h2 {
     font-size: clamp(1.25rem, 3vw, 2.4rem);
     margin: 0 0 0.5rem 0;

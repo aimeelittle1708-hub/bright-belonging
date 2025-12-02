@@ -20,7 +20,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <!-- classes on body set to work with mt-auto on footer to 
     ensure it always stays at the bottom of the page -->
@@ -62,17 +62,19 @@
         </div>
     </nav>
 
-   <!-- header section -->
+<!-- header section -->
 <header id="header" class="container section">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-8 text-center text-xl-start">
-            <h1 class="display-3">Bright Belonging</h1>
-            <p class="my-4">
-                Thank you for choosing to reserve a spot at an event with Bright Belonging! Please
-                fill out the form below with your details and preferred event. A
-                member of our team will call you back as soon as possible to confirm
-                your booking and answer any questions you may have.
-            </p>
+    <div class="events-overlay booking-overlay">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center">
+                <h1 class="display-3">Bright Belonging</h1>
+                <p class="my-4">
+                    Thank you for choosing to reserve a spot at an event with Bright Belonging! Please
+                    fill out the form below with your details and preferred event. A
+                    member of our team will call you back as soon as possible to confirm
+                    your booking and answer any questions you may have.
+                </p>
+            </div>
         </div>
     </div>
 </header>
@@ -80,10 +82,11 @@
 <main>
     <!-- Booking inquiry form section -->
     <section id="booking-form" class="container section">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-8">
-                <h2>Booking inquiry</h2>
-                <form action="success.html" method="GET">
+        <div class="events-overlay booking-overlay">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="text-center">Booking inquiry</h2>
+                    <form action="success.html" method="GET">
                     <div class="row">
                         <div class="col-12 col-lg-6 mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -116,6 +119,8 @@
 
                     <button type="submit" class="btn custom-button-outline">Submit</button>
                 </form>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
