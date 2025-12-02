@@ -320,3 +320,19 @@ a.btn.custom-button-outline:hover,
     height: 100%;
     border: 0;
 }
+
+/* Social icons (footer) — make gunmetal and twice as large */
+.social-links a {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+.social-links i {
+    color: #2a3638; /* gunmetal */
+    font-size: 2rem; /* roughly twice default */
+    line-height: 1;
+    transition: color 150ms ease;
+}
+.social-links a:focus i,
+.social-links a:hover i {
+    color: #184f63; /* dark-blue on hover for subtle contrast */
+}

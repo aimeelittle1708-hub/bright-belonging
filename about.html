@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Project stylesheet -->
+    <link rel="stylesheet" href="assets/styles.css">
+    <meta name="description"
+        content="A supportive space where every child, parent, and teacher feels seen, understood, and empowered through inclusive, sensory-informed education.">
+    <title>Bright Belonging | Home</title>
+
+    <!-- favicon icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/site.webmanifest">
+
+
+</head>
+<!-- classes on body set to work with mt-auto on footer to 
+    ensure it always stays at the bottom of the page -->
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar    -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img src="assets/images/favicon.ico" alt="BrightBelong logo"
+                    class="logo"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="subscribe.html" class="btn custom-button-filled ms-lg-3">Subscribe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
+    <main>
+        <!-- header -->
+        <header id="hero" class="container">
+            <div id="cover-text">
+                <div class="hero-overlay" aria-hidden="false">
+                    <!-- section with hero image -->
+                    <section class="row">
+                        <!-- text-center class used to centre all text inside column -->
+                        <div class="col-12 text-center">
+                            <h1 class="display-4 my-4">Bright Belonging</h1>
+                            <!-- mb-5 gives extra margin spacing under subheading -->
+                            <h2 class="display-6 mb-5">Understanding Different Types of Sensory Needs and Promoting
+                                Inclusion.</h2>
+                            <p>Every child experiences the world differently. Sensory needs—like sensitivity to light,
+                                sound, touch, or internal signals such as balance or hunger—can affect how children
+                                learn, communicate, and participate. Some may feel overwhelmed, while others seek
+                                sensory input to feel regulated. </p>
+                            <p>Creating inclusive spaces means being flexible: offering quiet areas, adjustable
+                                lighting, fidgets or visuals, and predictable routines. By respecting individual
+                                preferences and making thoughtful accommodations, we help children feel confident,
+                                supported, and genuinely welcomed.</p>
+
+                            <!-- Bootstrap modal button -->
+                            <button type="button" class="btn btn-primary sharp-corners" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Subscribe to our newsletter!
+                            </button>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </header>
+
+        <div class="container my-5">
+            <div class="row g-4">
+
+                <!-- Autism Spectrum Condition -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Autism Spectrum Condition</h5>
+                            <p class="card-text">
+                                Sensitivity to noise, light, textures, or movement. Signs may include covering ears,
+                                avoiding certain fabrics or foods, or seeking repetitive movement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADHD -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">ADHD</h5>
+                            <p class="card-text">
+                                May involve high movement needs and difficulty filtering background noise. Signs include
+                                fidgeting, seeking tactile input, and struggling to focus in busy spaces.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sensory Processing Difficulties -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Sensory Processing Difficulties</h5>
+                            <p class="card-text">
+                                Over- or under-responsiveness to sensory input. Signs can include strong reactions to
+                                touch or sound, craving deep pressure, or difficulty with temperature and texture
+                                changes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Developmental Delay -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Developmental Delay</h5>
+                            <p class="card-text">
+                                May involve difficulty regulating sensory input or adapting to new environments. Signs
+                                include
+                                overwhelm in busy settings and coordination challenges.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Down Syndrome -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Down Syndrome</h5>
+                            <p class="card-text">
+                                Sensory needs may relate to proprioception and muscle tone. Signs include seeking deep
+                                pressure,
+                                sensitivity to loud spaces, and benefit from visual or tactile cues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cerebral Palsy -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Cerebral Palsy</h5>
+                            <p class="card-text">
+                                Variations in muscle tone can affect touch, balance, and spatial awareness. Signs may
+                                include
+                                sensitivity to movement, preference for predictable environments, or coordination
+                                difficulties.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Disabilities -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Disabilities</h5>
+                            <p class="card-text">
+                                Visual or auditory overload may occur. Signs include difficulty in busy classrooms and
+                                trouble following spoken instructions in noisy environments.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trauma or PTSD -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Trauma or PTSD</h5>
+                            <p class="card-text">
+                                May involve heightened sensitivity to certain sensory triggers. Signs include avoidance
+                                of
+                                crowded spaces and strong startle responses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Anxiety-Related Conditions -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">Anxiety-Related Conditions</h5>
+                            <p class="card-text">
+                                Sensory sensitivity may increase during anxiety. Signs include discomfort in loud or
+                                bright
+                                spaces and relief from calming sensory tools.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Footer / contact section -->
+        <!-- mt-auto added to push footer to the bottom of the page -->
+        <footer id="contact" class="mt-auto">
+            <div class="container section">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <h2 class="display-6">Contact us!</h2>
+                    </div>
+                    <!-- Contact info -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="sub-heading-color">Contact info</h3>
+                        <address>
+                            <strong><i class="fa-solid fa-location-dot"></i> Bright Belonging</strong><br>
+                            123 Bright Street<br>
+                            Bright City, 12345
+                        </address>
+                        <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
+                            <i class="fa-regular fa-paper-plane"></i> info@brightbelonging.co
+                        </p>
+                        <div class="social-links my-4">
+                            <a href="https://www.instagram.com" target="_blank"
+                                aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com" target="_blank"
+                                aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.x.com" target="_blank"
+                                aria-label="Visit our X feed (opens in a new tab)" rel="noopener"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Opening times -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="sub-heading-color">Opening times</h3>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Open</th>
+                                    <th scope="col">Close</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Mon</th>
+                                    <td>8am</td>
+                                    <td>4:30pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tue- Thur</th>
+                                    <td>9am</td>
+                                    <td>5pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fri- Sat</th>
+                                    <td>11am</td>
+                                    <td>4pm</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sun</th>
+                                    <td>11am</td>
+                                    <td>3pm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+            </script>
+
+        <!-- Font Awesome kit -->
+        <script src="https://kit.fontawesome.com/aa9af45995.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
