@@ -14,6 +14,19 @@ body {
     background-attachment: fixed;
 }
 
+/* Global link styles: no underline, gunmetal base; white on hover/active */
+a,
+a:visited {
+    color: #2a3638; /* gunmetal */
+    text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #E84A5F; /* coral*/
+    text-decoration: none;
+}
+
 h1,
 h2 {
     font-family: "DM Serif Display", serif;
@@ -358,17 +371,13 @@ a.btn.custom-button-outline:hover,
 }
 .social-links i {
     color: #2a3638; /* gunmetal */
-<<<<<<< HEAD
-    font-size: 1.5em; /* 50% larger than surrounding text */
-    line-height: 1;
-=======
     font-size: 2rem; 
     line-height: 1;
     transition: color 150ms ease;
 }
 .social-links a:focus i,
 .social-links a:hover i {
-    color: #184f63; /* dark-blue on hover for subtle contrast */
+    color: #ffffff; /* white on hover for subtle contrast */
 }
 
 /* Header subscribe button spacing (adds 20px gap below the button) */
@@ -379,5 +388,4 @@ a.btn.custom-button-outline:hover,
 /* Hero modal subscribe button spacing (adds 20px gap below the button) */
 .hero-subscribe {
     margin-bottom: 20px;
->>>>>>> b85a5aaa8b32d19d8c8c002e60ded9ef835b1178
 }
