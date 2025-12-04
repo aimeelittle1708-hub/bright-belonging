@@ -54,6 +54,13 @@ Color pallette selected and check for WCAG standards to ensure accessibility.
 Checked with https://colorlabs.net/ 
 
 <h3>Fonts</h3>
+Fonts used because they were clear, easy to read and helped drive the idea of inclusion and accessibility.
+
+ "Poppins" sans-serif;   
+
+
+"DM Serif Display", serif;
+
 
 <h2>Features </h2>
 
@@ -91,6 +98,7 @@ Finally, a modal pop up which also links to the success page which the subscribe
 
 <h4>Image Generation:</h4> 
 <p>I used AI to generate a variety of photos to fit the needs of the project using specific prompts to extract what I needed from Chat GTP.</p>
+<p> All other images taken from https://sensoryclassroom.org/ and https://www.freepik.com/ 
 
 <h4>Text Content Creation:</h4> 
 <p>I used ChatGPT to help me draft the content for the cards and the header text for each page.</p>
@@ -109,6 +117,9 @@ This made the project easier to maintain and validate using standard tools.
 <h2> Testing </h2>
 <h3>Reponsive tesing </h3>
 <p> Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones. </p>
+<p> I also used Am I Responsive" to check. https://ui.dev/amiresponsive 
+
+<img src="assets\images\reponsive.png">
 
 
 <h3>Lighthouse testing</h3>
@@ -124,3 +135,8 @@ HTML validation shows 2 errors to do with the map.
 <p>Hosted on GitHub Pages.
 Version controlled with GitHub.
 Static-only (no backend required).</p>
+
+
+<h2>Review</h2>
+<p>Now that the project is finished, I think I should have made more commit messages as it became tricky to revert back to a previous version of the website when errors happened. </p>
+
