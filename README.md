@@ -73,7 +73,37 @@ Resources Page
 Footer with clear contact information which appears on all pages.
 <img src="assets/images/footer2.png" alt="footer">
 Finally, a modal pop up which also links to the success page which the subscribe button is clicked.
-<img src="assets\images\modalshot.png">
+<img src="assets/images/modalshot.png">
+
+<h2> Future features </h2>
+<p>On returning to this project, items I would like to include would be; 
+</p>
+<ul>
+<li>Blog page- to add own articles </li>
+<li>Rolling carousel of images in the header of the homepage </li>
+<li>Bank of reources to download</li>
+<li>links/ embedded youtube videos </li>
+<li>Related games for neurodiverse children </li>
+
+<h2>Use of Copilot and AI tools</h2>
+<p>The use of generative AI played a key role in the development of this project. AI allowed me to stay efficient and keep working to deliver maximum output on the short deadline that this assignment had:</p>
+
+<h4>Image Generation:</h4> 
+<p>I used AI to generate a variety of photos to fit the needs of the project using specific prompts to extract what I needed from Chat GTP.</p>
+
+<h4>Text Content Creation:</h4> 
+<p>I used ChatGPT to help me draft the content for the cards and the header text for each page.</p>
+
+<h4>Layout and Scaffolding: </h4>
+<p>When dealing with complex layouts, I asked Copilot to generate me the rough grid structure in HTML and Bootstrap classes. These often has small styling issues, so a full understanding of Bootstrap and HTML was required from me in order to tweak the styles to exactly how I wanted them.</p>
+
+<h4>Code Corrections & Readability </h4>
+AI tools suggested cleaner code syntax, helping to correct small errors that affected functionality.
+It also improved readability and consistency, ensuring the HTML and CSS followed semantic and accessible coding standards.
+This made the project easier to maintain and validate using standard tools.
+
+<h4>Encountered Problems </h4>
+<p> I had originally tried to use a carousel of images in the header, but this created problems afterwards. I tried using AI to fix these issues, however it added lots of custom CSS styles which conflicted with the Bootstrap classes. I decided to revert back to the page before I added the carousel.
 
 <h2> Testing </h2>
 <h3>Reponsive tesing </h3>
@@ -83,10 +113,13 @@ Finally, a modal pop up which also links to the success page which the subscribe
 <h3>Lighthouse testing</h3>
 <p>Light house performace testing showed 99 rating</p>
 <img alt="lightouse score 99" src="assets/images/lighthousescorebb.png">
-The low score when checked for Best practises was because third party sources were used- ie-google maps.
+The lower score when checked for Best practises was because third party sources were used- ie-google maps.
 <h3>Validator testing </h3>
-html. css, 
+HTML validation shows 2 errors to do with the map.
+<img src="assets/images/htmlvalid.png"> 
+ No errors found in CSS when validated.
+<img src="assets\images\cssvalid.png">
 <h2> Deployment</h2>
 <p>Hosted on GitHub Pages.
 Version controlled with GitHub.
-Static-only (no backend required)..</p>
+Static-only (no backend required).</p>
