@@ -54,49 +54,96 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="subscribe.html" class="btn custom-button-filled ms-lg-3">Subscribe</a>
+                        <a href="success.html" class="btn custom-button-filled ms-lg-3 header-subscribe" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
     <main>
         <!-- header -->
-    <header id="hero" class="container">
-        <div id="cover-text">
-        <div class="hero-overlay" aria-hidden="false">
-        <!-- section with hero image -->
-        <section class="row">
-            <!-- text-center class used to centre all text inside column -->
-            <div class="col-12 text-center">
-                <h1 class="display-4 my-4">Bright Belonging</h1>
-                <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 class="display-6 mb-5">Where every child matters.</h2>
-                <p>
-                    Every child experiences the world differently, and supporting sensory needs is an
-                essential part of creating truly inclusive schools. By understanding how children respond to sound,
-                light, touch, movement, and their environment, we can make classrooms where all learners feel safe,
-                focused, and able to join in. Sensory-aware teaching not only helps children with additional needs—it
-                enriches the learning experience for everyone. Our aim is to give schools the knowledge and tools to
-                recognise sensory differences as a natural part of diversity, and to ensure every child feels valued,
-                included, and ready to thrive.
-                </p>
-                <!-- mb-5 gives extra margin spacing under lead text -->
-                <p class="lead mb-5">Let's create something amazing together!</p>
-                <!-- Bootstrap modal button -->
-                <button type="button" class="btn btn-primary sharp-corners" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Subscribe to our newsletter!
-                </button>
+
+          <header id="header" class="container section">
+        <div class="row">
+            <div class="col-12 col-xl-6">
+                <div id="cover-text">
+                    <div class="hero-text-overlay events-overlay mx-auto" aria-hidden="false">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h1 class="display-4 my-4">Bright Belonging</h1>
+                                <h2 class="display-6 mb-3">Where every child matters.</h2>
+                                <p>
+                                    Every child experiences the world differently, and supporting sensory needs is an
+                                    essential part of creating truly inclusive schools. By understanding how children respond to sound,
+                                    light, touch, movement, and their environment, we can make classrooms where all learners feel safe,
+                                    focused, and able to join in. Sensory-aware teaching not only helps children with additional needs—it
+                                    enriches the learning experience for everyone. Our aim is to give schools the knowledge and tools to
+                                    recognise sensory differences as a natural part of diversity, and to ensure every child feels valued,
+                                    included, and ready to thrive.
+                                </p>
+                                <p class="lead mb-4">Let's create something amazing together!</p>
+                                <div class="text-center">
+                    <button type="button" class="btn btn-primary sharp-corners hero-subscribe" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Subscribe to our newsletter!
+                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
             </div>
-        
-        </section>
-        </div>
+            <div class="col-12 col-xl-6">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/boy-doing-occupational-therapy-session-with-psychologist_23-2149091561.jpg" class="d-block w-100"
+                                alt="Play dough and colorful sensory toys used in an occupational therapy session">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/sensory-room-1.png" class="d-block w-100"
+                                alt="Our sensory room with a variety of sensory toys and equipment to support children with sensory needs">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/cousins-spending-time-together-home-playing-cards_23-2150167144.jpg" class="d-block w-100"
+                                alt="Children playing cards together at in our handout rooms">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/close-up-child-playing-with-pop-it-toy_23-2149891292.jpg" class="d-block w-100"
+                                alt="Our fully stocked resource library with a variety of sensory toys and tools">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/girl-with-down-syndrome-painting-with-colors_23-2148464631.jpg" class="d-block w-100"
+                                alt="Supportive adult helping a girl paint with bright colors">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
-    
-        </div>
-        </div>
+                 
+            
+            
+        
+        
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+            
+        </header>
+
         <!-- Services section -->
         <section id="services" class="container section">
             <div class="services-overlay mx-auto p-4">
@@ -105,72 +152,73 @@
                         <h2 class="display-6">Services</h2>
                         <br>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/images/girl-with-down-syndrome-painting-with-colors_23-2148464631.jpg"
-                            class="card-img-top" alt="Girl painting with bright colors with support from an adult">
-                        <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Community Groups</h3>
-                            <p class="card-text">
-                                Our support groups offer a safe,
-                                welcoming space to share experiences, learn strategies, and build meaningful
-                                connections.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">Free!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets\images\close-up-child-playing-with-pop-it-toy_23-2149891331.jpg"
-                            class="card-img-top" alt="Stack of popits in various colors">
-                        <div class="card-body">
-                            <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
-                            <h3 class="card-title sub-heading-color">Resource library</h3>
-                            <p class="card-text">
-                                Access articles, guides, printables, videos, and recommended tools to support sensory
-                                regulation at home, school, and in the community.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">See prices in our library</p>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="card">
+                            <img src="assets/images/girl-with-down-syndrome-painting-with-colors_23-2148464631.jpg"
+                                class="card-img-top" alt="Girl painting with bright colors with support from an adult">
+                            <div class="card-body">
+                                <h3 class="card-title sub-heading-color">Community Groups</h3>
+                                <p class="card-text">
+                                    Our support groups offer a safe,
+                                    welcoming space to share experiences, learn strategies, and build meaningful
+                                    connections.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="mb-0">Free!</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets\images\expoevent.png" class="card-img-top"
-                            alt="People investigating sensory toys at an event">
-                        <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Events & Workshops</h3>
-                            <p class="card-text">
-                                Join educational sessions, hands-on workshops, and fun community events designed to
-                                support sensory learning and inclusion.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">From £5 per person</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="card">
-                        <img src="assets/images/teacherinclass.png" class="card-img-top"
-                            alt="A teacher in class sharing a sensory activity with children">
-                        <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Classroom Help & Educator Tools</h3>
-                            <p class="card-text">
-                                Support students with sensory needs using educator-friendly strategies and resources
-                                designed for inclusive learning environments.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">Free</p>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="card">
+                            <img src="assets\images\close-up-child-playing-with-pop-it-toy_23-2149891331.jpg"
+                                class="card-img-top" alt="Stack of popits in various colors">
+                            <div class="card-body">
+                                <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
+                                <h3 class="card-title sub-heading-color">Resource library</h3>
+                                <p class="card-text">
+                                    Access articles, guides, printables, videos, and recommended tools to support
+                                    sensory
+                                    regulation at home, school, and in the community.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="mb-0">See prices in our library</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="card">
+                            <img src="assets\images\expoevent.png" class="card-img-top"
+                                alt="People investigating sensory toys at an event">
+                            <div class="card-body">
+                                <h3 class="card-title sub-heading-color">Events & Workshops</h3>
+                                <p class="card-text">
+                                    Join educational sessions, hands-on workshops, and fun community events designed to
+                                    support sensory learning and inclusion.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="mb-0">From £5 per person</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 mb-4">
+                        <div class="card">
+                            <img src="assets/images/teacherinclass.png" class="card-img-top"
+                                alt="A teacher in class sharing a sensory activity with children">
+                            <div class="card-body">
+                                <h3 class="card-title sub-heading-color">Classroom Help & Educator Tools</h3>
+                                <p class="card-text">
+                                    Support students with sensory needs using educator-friendly strategies and resources
+                                    designed for inclusive learning environments.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="mb-0">Free</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -183,16 +231,21 @@
                         <h2 class="display-6 text-center">Join our Events and Community Groups</h2>
                     </div>
                     <div class="col-12 col-xl-6">
-                        <p>Our community offers a welcoming range of free support groups and events designed to empower children with neurodiversity or sensory needs, as well as the families and professionals who support them. We bring together parents, teachers, and specialists to share the latest research, practical advice, and evidence-based resources in an inclusive, nurturing environment.</p>
-                        <p>Whether you’re seeking guidance, connection, or innovative strategies, our events provide a safe space to learn, collaborate, and build confidence. Most sessions are free to attend, and all are created with the goal of helping every child thrive.</p>  
-                     <!-- Embedded map showing Wadebridge Family Hub -->
+                        <p>Our community offers a welcoming range of free support groups and events designed to empower
+                            children with neurodiversity or sensory needs, as well as the families and professionals who
+                            support them. We bring together parents, teachers, and specialists to share the latest
+                            research, practical advice, and evidence-based resources in an inclusive, nurturing
+                            environment.</p>
+                        <p>Whether you’re seeking guidance, connection, or innovative strategies, our events provide a
+                            safe space to learn, collaborate, and build confidence. Most sessions are free to attend,
+                            and all are created with the goal of helping every child thrive.</p>
+                        <!-- Embedded map showing Wadebridge Family Hub -->
                         <div class="map-responsive my-4" aria-label="Map showing Wadebridge Family Hub location">
-                            <iframe
-                                src="https://maps.google.com/maps?q=50.5185247,-4.8422335&z=17&output=embed"
+                            <iframe src="https://maps.google.com/maps?q=50.5185247,-4.8422335&z=17&output=embed"
                                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                                 title="Wadebridge Family Hub map"></iframe>
                         </div>
-                        </div>
+                    </div>
                     <div class="col-12 col-xl-6">
                         <table class="table table-hover">
                             <thead>
@@ -214,7 +267,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Sensory Support Network Drop-in</th>
-                                    <td>Wednesdays</td> 
+                                    <td>Wednesdays</td>
                                     <td>Family Hub, Wadebridge</td>
                                     <td>9am - 5pm</td>
                                     <td>Free</td>
@@ -226,14 +279,14 @@
                                     <td>10am - 12:30pm</td>
                                     <td>Free</td>
                                 </tr>
-                                 <tr>
+                                <tr>
                                     <th scope="row">The Hang Out</th>
                                     <td>Saturdays</td>
                                     <td>Family Hub, Wadebridge</td>
                                     <td>10am - 12:30pm</td>
                                     <td>Free</td>
                                 </tr>
-                                 <tr>
+                                <tr>
                                     <th scope="row">Sensory Expo</th>
                                     <td>Saturday 10th January</td>
                                     <td>John Betjeman Community Centre, Wadebridge</td>
@@ -243,13 +296,13 @@
                             </tbody>
                         </table>
                         <p class="student-discount text-center">*Children free</p>
-                   
+
                     </div>
                     <div class="col-12 text-center">
                         <a href="booking.html" class="btn custom-button-outline my-4">Book now</a>
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
     </main>
 
@@ -259,15 +312,12 @@
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="mt-auto">
         <div class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <h2 class="display-6">Contact us!</h2>
-                </div>
+            <div class="row justify-content-center">    
                 <!-- Contact info -->
                 <div class="col-12 col-md-6 col-xl-4">
-                    <h3 class="sub-heading-color">Contact info</h3>
+                    <h3 class="sub-heading-color">Contact Us!</h3>
                     <address>
-                        <strong><i class="fa-solid fa-location-dot"></i> Bright Belonging</strong><br>
+                        <strong><i class="fa-solid fa-location-dot"></i> Bright Belonging Offices</strong><br>
                         123 Bright Street<br>
                         Bright City, 12345
                     </address>
@@ -324,7 +374,40 @@
             </div>
         </div>
     </footer>
-
+ <!-- Bootstrap modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Join our newsletter for the latest updates on our projects,
+                        events, and research-informed strategies delivered straight to your
+                        inbox.
+                    </p>
+                    <form class="row g-3">
+                        <div class="col-lg-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName" required>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="inputEmail" class="form-label" required>Email</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
+                        </div>
+                        <div class="col-12 mb-4">
+                            <button type="submit" class="btn btn-primary" target="success.html">
+                                Sign up!
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
