@@ -57,14 +57,36 @@ Checked with https://colorlabs.net/
 <h2>Features </h2>
 
 <h3> Home page </h3>
-some text about the diff features here
+Homepage showing;
+-nav bar, subscribe button in prominant place with clear accessible colours and high quality images.
+<img src="assets/images/homeshot.png" alt="home page">
+Clearly defined Events in a table with map location and booking form button.
+<img src="assets/images/eventsshot.png" alt="events">
+Booking form button will lead to form page
+<img src="assets/images/bookingshot.png">
+Which when completed will lead to a "Success page"
+<img src="assets/images/successshot.png">
+About with cards shoing strategies for different possible difficulties children may face.
+<img src="assets/images/aboutshot.png" alt="about">
+Resources Page
+<img src="assets\images\resourcesshot.png">
+Footer with clear contact information which appears on all pages.
+<img src="assets/images/footer2.png" alt="footer">
+Finally, a modal pop up which also links to the success page which the subscribe button is clicked.
+<img src="assets\images\modalshot.png">
 
 <h2> Testing </h2>
 <h3>Reponsive tesing </h3>
 <p> Alongside the built in Bootstrap responsive CSS, Chrome dev tools were used frequently to test the site at standard screen sizes and the site was manually viewed on laptops, tablets and phones. </p>
+
+
 <h3>Lighthouse testing</h3>
-<p>Light house performace testing showed.... </p>
+<p>Light house performace testing showed 99 rating</p>
+<img alt="lightouse score 99" src="assets/images/lighthousescorebb.png">
+The low score when checked for Best practises was because third party sources were used- ie-google maps.
 <h3>Validator testing </h3>
 html. css, 
 <h2> Deployment</h2>
-<p>The project is structured so the site can be deployed to GitHub Pages from the /docs folder. The docs/ folder is kept in sync with the project root so the live Pages site matches the source.</p>
+<p>Hosted on GitHub Pages.
+Version controlled with GitHub.
+Static-only (no backend required)..</p>
