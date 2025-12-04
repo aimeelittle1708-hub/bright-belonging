@@ -25,10 +25,11 @@ Support inclusive educational practices for all children
 [ ] As a classroom teacher I want downloadable lesson plans and activity modifications so that I can include students with sensory needs easily.
 
 <h3> User stories <h3>
+<img src="assets/images/user-stories.png">
 
 
 <h2>UXP design choices </h2>
-<p>The completed 3 day sprint was composed of X separate items taken from business goal and user personas. Having used the MoSCoW approach to prioritisation, a Kanban board was created. X issues were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were ___ remaining backlog items.</p>
+<p>The completed 3 day sprint was composed of 6 separate items taken from business goal and user personas. Having used the MoSCoW approach to prioritisation, a Kanban board was created. 4 issues were classified as "Must-Have" making up less than 60% of the tasks as recommended. The rest of the first sprint was made up of "Should-Have" and "Could-Have" items. There were 0 remaining backlog items.</p>
 
 <img alt="bb kanban" src="assets\images\bb-kanban.png">
 
