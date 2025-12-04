@@ -164,7 +164,15 @@ a.btn.custom-button-outline:hover,
     width: min(94%, 900px);
     max-width: 900px;
     aspect-ratio: auto; /* cancel square from .hero-overlay */
-    padding: 1rem 1.25rem;
+    padding: 0.5rem 1rem; /* tighter overlay padding */
+}
+
+/* Shrink overall hero on Resources page to reduce gap above cards */
+.resources-hero {
+    min-height: auto;
+        padding-top: 0rem;   /* bring header closer to navbar */
+    padding-bottom: 0.25rem; /* tighter bottom spacing */
+    display: block; /* cancel flex so height fits content */
 }
 
 /* About page: smaller header overlay to better fit copy */
@@ -172,7 +180,15 @@ a.btn.custom-button-outline:hover,
     width: min(94%, 900px);
     max-width: 900px;
     aspect-ratio: auto;
-    padding: 1rem 1.25rem;
+        padding: 0.5rem 1rem; /* tighter overlay padding to reduce top space */
+}
+
+/* Shrink overall hero on About page to sit closer to navbar */
+.about-hero {
+    min-height: auto;
+        padding-top: 0rem; /* bring header closer to navbar */
+    padding-bottom: 0.5rem;
+    display: block; /* cancel flex so height fits content */
 }
 
 
@@ -249,8 +265,28 @@ a.btn.custom-button-outline:hover,
 }
 
 
-/* Style the Services heading: centered with a background box */
+/* Style the Services Articles and Resources headings: centered with a background box */
 #services .display-6 {
+     display: inline-block;
+     background: rgba(255,255,255,0.96);
+     padding: 0.45rem 1rem;
+     border-radius: 10px;
+     box-shadow: 0 6px 18px rgba(24,79,99,0.08);
+     margin: 0 auto 1rem auto;
+     text-align: center;
+}
+
+#resources .display-6 {
+     display: inline-block;
+     background: rgba(255,255,255,0.96);
+     padding: 0.45rem 1rem;
+     border-radius: 10px;
+     box-shadow: 0 6px 18px rgba(24,79,99,0.08);
+     margin: 0 auto 1rem auto;
+     text-align: center;
+}
+
+#articles .display-6 {
      display: inline-block;
      background: rgba(255,255,255,0.96);
      padding: 0.45rem 1rem;

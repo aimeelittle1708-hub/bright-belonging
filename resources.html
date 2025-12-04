@@ -61,20 +61,25 @@
         </div>
     </nav>
     <main>
-        <!-- header -->
-    <header id="hero" class="container">
-        <div id="cover-text">
-        <div class="hero-overlay resources-header mx-auto" aria-hidden="false">
-        <!-- section with hero image -->
-        <section class="row">
-            <!-- text-center class used to centre all text inside column -->
-            <div class="col-12 text-center">
-                <h1 class="display-4 my-4">Bright Belonging</h1>
+    <header id="header" class="container section">
+        <div class="row">
+            <div class="col-12">
+                <div id="cover-text">
+                    <div class="hero-text-overlay events-overlay mx-auto" aria-hidden="false">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                <h1 class="display-4 my-2">Bright Belonging</h1>
                 <!-- mb-5 gives extra margin spacing under subheading -->
-                <h2 class="display-6 mb-5">Where every child matters.</h2>
+                <h2 class="display-6 mb-3">Where every child matters.</h2>
                 <p>
                    Bright Belonging’s Resource Library offers parents and teachers an easy-to-access collection of practical tools designed to support diverse sensory and communication needs. Inside, you’ll find helpful blog posts, articles, and simple strategies for creating calmer, more inclusive environments at home and in the classroom. The library also includes downloadable materials—such as visual timetables, communication cards, and other ready-to-use supports—so you can quickly put ideas into action and help every child feel understood and confident.
                 </p>
+                 <!-- Bootstrap modal button -->
+                            <button type="button" class="btn btn-primary sharp-corners" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Subscribe to our newsletter!
+                            </button>
+                        </div>
             </div>
         </section>
         </div>
@@ -93,7 +98,7 @@
                         <img src="assets/images/Copy_of_sensory_classroom_square_posts_5ece33aa-1583-4c8b-bfdf-6f02d83ae1f5.webp"
                             class="card-img-top" alt="Friendly rabbit playing with sensory toys">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">For Parents</h3>
+                            <a href="https://sensoryclassroom.org/collections/home-resources"><h3 class="card-title sub-heading-color">For Parents</h3></a>
                             <p class="card-text">
                                Find practical guidance, simple strategies, and ready-to-use tools to help support your child’s sensory and communication needs at home.
                             </p>
@@ -109,7 +114,7 @@
                             class="card-img-top" alt="Cat laminating sensory resource sheets">
                         <div class="card-body">
                             <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
-                            <h3 class="card-title sub-heading-color">For Teachers</h3>
+                            <a href="https://sensoryclassroom.org/collections/classroom-resources"><h3 class="card-title sub-heading-color">For Teachers</h3></a>
                             <p class="card-text">
                                 Access classroom-friendly resources, visuals, and strategies designed to create inclusive, supportive learning environments for every student.
                             </p>
@@ -124,7 +129,7 @@
                         <img src="assets/images/Copy_of_sensory_classroom_square_posts_7b4d27bc-1b0f-46d2-bc1b-c6a2ca05de6e.webp" class="card-img-top"
                             alt="Pig communicating using AAC on a tablet">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">For Communication</h3>
+                            <a href="https://sensoryclassroom.org/blogs/core-word-programme-ideas"><h3 class="card-title sub-heading-color">Communication</h3></a>
                             <p class="card-text">
                                 Explore effective approaches, tips, and downloadable supports to help children regulate, communicate, and thrive across different settings.
                             </p>
@@ -139,7 +144,7 @@
                         <img src="assets\images\Copy_of_sensory_classroom_square_posts_ed50dcc6-8b41-4128-b719-85ad5c6ed640.webp" class="card-img-top"
                             alt="kitten in a wheelchair with a sensory toy">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Sensory strategies</h3>
+                            <a href="https://sensoryclassroom.org/collections/sensory-curriculum"><h3 class="card-title sub-heading-color">Sensory strategies</h3></a>
                             <p class="card-text">
                                Discover practical sensory tools, routines, and adjustments that help children feel regulated, comfortable, and ready to engage throughout their day
                             </p>
@@ -160,67 +165,58 @@
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 mb-4">
                     <div class="card">
-                        <img src="assets/images/Copy_of_sensory_classroom_square_posts_5ece33aa-1583-4c8b-bfdf-6f02d83ae1f5.webp"
-                            class="card-img-top" alt="Friendly rabbit playing with sensory toys">
+                        <img src="assets\images\Copy_of_sensory_classroom_square_posts_3ae41034-d104-40ab-8349-794c3723d702.webp"
+                            class="card-img-top" alt="Frog with ear defenders">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">For Parents</h3>
+                            <a href="https://sensoryclassroom.org/blogs/sensoryclassroom/creating-a-personalised-sensory-profile"><h3 class="card-title sub-heading-color">Personalised Sensory Profile</h3></a>
                             <p class="card-text">
                                 Our support groups offer a safe,
                                 welcoming space to share experiences, learn strategies, and build meaningful
                                 connections.
                             </p>
                         </div>
-                        <div class="card-footer">
-                            <p class="mb-0">Free!</p>
-                        </div>
+                    
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3 mb-4">
                     <div class="card">
-                        <img src="assets\images\Copy_of_sensory_classroom_square_posts_14738d4f-ac60-4174-8f65-92582d820165.webp"
-                            class="card-img-top" alt="Cat laminating sensory resource sheets">
+                        <img src="assets/images/Copy_of_sensory_classroom_square_posts_2cf66bd1-c15d-42dd-9f25-451cdc63e689.webp"
+                            class="card-img-top" alt="Baking for all">
                         <div class="card-body">
                            
-                            <h3 class="card-title sub-heading-color">For Teachers</h3>
+                            <a href="https://sensoryclassroom.org/blogs/sensoryclassroom/sensory-recipes-for-all"><h3 class="card-title sub-heading-color">Sensory Recipes for All</h3></a>
                             <p class="card-text">
                                 Access articles, guides, printables, videos, and recommended tools to support sensory
                                 regulation at home, school, and in the community.
                             </p>
                         </div>
-                        <div class="card-footer">
-                            <p class="mb-0">See prices in our library</p>
-                        </div>
+                    
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3 mb-4">
                     <div class="card">
-                        <img src="assets/images/Copy_of_sensory_classroom_square_posts_7b4d27bc-1b0f-46d2-bc1b-c6a2ca05de6e.webp" class="card-img-top"
-                            alt="Pig communicating using AAC on a tablet">
+                        <img src="assets/images/Copy_of_sensory_classroom_square_posts_8ba560b2-d288-4a90-ab0c-bb60140ca282.webp" class="card-img-top"
+                            alt="Working out weigh lifting chicken">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">CArticle</h3>
+                            <a href="https://sensoryclassroom.org/blogs/sensoryclassroom/sensory-circuits"><h3 class="card-title sub-heading-color">Sensory Circuits</h3></a>
                             <p class="card-text">
                                 Join educational sessions, hands-on workshops, and fun community events designed to
                                 support sensory learning and inclusion.
                             </p>
                         </div>
-                        <div class="card-footer">
-                            <p class="mb-0">From £5 per person</p>
-                        </div>
+                
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-xl-3 mb-4">
                     <div class="card">
-                        <img src="assets\images\Copy_of_sensory_classroom_square_posts_ed50dcc6-8b41-4128-b719-85ad5c6ed640.webp" class="card-img-top"
-                            alt="kitten in a wheelchair with a sensory toy">
+                        <img src="assets/images/Copy_of_sensory_classroom_square_posts_7d77ff65-1544-410d-a614-d060d8a67c82.webp" class="card-img-top"
+                            alt="Grumpy PDA hippopotamus">
                         <div class="card-body">
-                            <h3 class="card-title sub-heading-color">Sensory strategies</h3>
+                            <a href="https://sensoryclassroom.org/blogs/sensoryclassroom/supporting-learners-with-a-pda-profile-a-practical-guide"><h3 class="card-title sub-heading-color">Supporting Learners with a PDA</h3></a>
                             <p class="card-text">
                                 Support students with sensory needs using educator-friendly strategies and resources
                                 designed for inclusive learning environments.
                             </p>
-                        </div>
-                        <div class="card-footer">
-                            <p class="mb-0">Free</p>
                         </div>
                     </div>
                 </div>
